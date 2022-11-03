@@ -27,7 +27,7 @@ class Read_Me:
         self.hobbies = {
             'video games': ['Elden Ring', 'Ghost of Tsushima', 'The Legend of Zelda: Breath of the Wild'],
             'books': ['The Lord of the Rings', 'A Song of Ice and Fire', 'The Witcher'],
-            'movies': ['Avengers: Endgame', 'The Lord of the Rings: The Two Towers','Spider-Man 2'],
+            'movies': ['Avengers: Endgame', 'The Lord of the Rings: The Two Towers', 'Spider-Man 2'],
             'tv shows': ['Dragon Ball', 'Game of Thrones', 'Code Geass', 'House of the Dragon']
         }
  
@@ -43,7 +43,8 @@ class Read_Me:
             I studied {major} at {university} from 2017 to 2021, obtaining a {degree} degree upon graduation.
             """.format(major = education[0], university = education[1], degree = education[2]) + """
             During my junior year, I volunteered as a {position} for a class called {course}.
-            I guided special needs students by documenting notes for them and revised and clarified presentation content when needed.
+            I guided special needs students by documenting notes for them 
+            and revised and clarified presentation content when needed.
             """.format(position = experience[0], course = experience[1])
 
         elif now == today:
