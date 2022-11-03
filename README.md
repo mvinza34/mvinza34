@@ -31,7 +31,7 @@ class Read_Me:
             'tv shows': ['Dragon Ball', 'Game of Thrones', 'Code Geass', 'House of the Dragon']
         }
  
-    def doing(self, now=2022):
+    def doing(self, now = 2022):
         today = self.year
         if now < today:
             education = self.education['engineering']
