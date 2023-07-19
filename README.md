@@ -4,7 +4,7 @@ class Read_Me:
         self.year = year
         self.username = username
         self.intro = {
-            'introduction': ['Marlon Vinza', '23-year-old', 'college graduate']
+            'introduction': ['Marlon Vinza', '24-year-old', 'college graduate']
         }
         self.education = {
             'engineering': ['Computer Engineering', 'Sacred Heart University', 'Bachelor of Science']
@@ -25,7 +25,7 @@ class Read_Me:
             'learning sites': ['YouTube', 'freeCodeCamp', 'Code Academy']
         }
         self.hobbies = {
-            'video games': ['Elden Ring', 'Ghost of Tsushima', 'The Witcher 3: Wild Hunt', 'The Legend of Zelda: Breath of the Wild'],
+            'video games': ['Elden Ring', 'Ghost of Tsushima', 'Bloodborne', 'The Witcher 3: Wild Hunt', 'The Legend of Zelda: Tears of the Kingdom'],
             'books': ['The Lord of the Rings', 'A Song of Ice and Fire', 'The Witcher'],
             'movies': ['Avengers: Endgame', 'The Lord of the Rings: The Two Towers', 'Spider-Man 2'],
             'tv shows': ['Dragon Ball', 'Game of Thrones', 'Code Geass', 'House of the Dragon']
