@@ -21,14 +21,14 @@ class Read_Me:
         self.growing = {
             'programming languages': ['C#'],
             'software': ['Visual Studio'],
-            'hardware': ['Raspberry Pi','Raspberry Pi Pico'],
+            'hardware': ['Raspberry Pi', 'Raspberry Pi Pico'],
             'learning sites': ['YouTube', 'freeCodeCamp', 'Code Academy']
         }
         self.hobbies = {
-            'video games': ['Elden Ring', 'Ghost of Tsushima', 'Bloodborne', 'The Witcher 3: Wild Hunt', 'The Legend of Zelda: Tears of the Kingdom'],
+            'video games': ['Elden Ring', 'Ghost of Tsushima', 'Dark Souls', 'Bloodborne', 'The Witcher 3: Wild Hunt', 'The Legend of Zelda: Tears of the Kingdom'],
             'books': ['The Lord of the Rings', 'A Song of Ice and Fire', 'The Witcher'],
             'movies': ['Avengers: Endgame', 'The Lord of the Rings: The Two Towers', 'Spider-Man 2'],
-            'tv shows': ['Dragon Ball', 'Game of Thrones', 'Code Geass', 'House of the Dragon']
+            'TV shows': ['Dragon Ball Z', 'Game of Thrones', 'Code Geass', 'House of the Dragon']
         }
  
     def doing(self, now = 2023):
@@ -57,8 +57,8 @@ class Read_Me:
             return """
             I am currently learning {code} on {website} and {other}.
             """.format(code = dream[0], website = learn[0], other = learn[2]) + """
-            My hobbies are mainly playing video games, reading books, and watching movies and tv shows. 
-            My all time favorites are {game}, {book}, {movie}, and {show} respectively.
+            My hobbies are playing video games, reading books, and watching movies and TV shows. 
+            My all-time favorites are {game}, {book}, {movie}, and {show} respectively.
             """.format(game = hobby_1[0], book = hobby_2[1], movie = hobby_3[2], show = hobby_4[2])
 
         elif now > today:
