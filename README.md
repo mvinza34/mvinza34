@@ -4,7 +4,7 @@ class Read_Me:
         self.year = year
         self.username = username
         self.intro = {
-            'introduction': ['Marlon Vinza', '24-year-old', 'college graduate']
+            'introduction': ['Marlon Vinza', '25-year-old', 'college graduate']
         }
         self.education = {
             'engineering': ['Computer Engineering', 'Sacred Heart University', 'Bachelor of Science']
@@ -19,13 +19,13 @@ class Read_Me:
             'hardware': ['Arduino Uno'] 
         }
         self.growing = {
-            'programming languages': ['C#'],
+            'programming languages': ['HTML', 'JavaScript'],
             'software': ['Visual Studio'],
             'hardware': ['Raspberry Pi', 'Raspberry Pi Pico'],
-            'learning sites': ['YouTube', 'freeCodeCamp', 'Code Academy']
+            'learning sites': ['The Odin Project', 'YouTube']
         }
         self.hobbies = {
-            'video games': ['Elden Ring', 'Ghost of Tsushima', 'Dark Souls', 'Super Mario Galaxy 2', 'The Witcher 3: Wild Hunt', 'The Legend of Zelda: Tears of the Kingdom'],
+            'video games': ['Elden Ring', 'Ghost of Tsushima', 'Dark Souls', 'Sekiro: Shadows Die Twice', 'Super Mario Galaxy 2', 'The Witcher 3: Wild Hunt'],
             'books': ['The Lord of the Rings', 'Ultimate Spider-Man', 'A Song of Ice and Fire', 'The Witcher'],
             'movies': ['Godzilla Minus One', 'Avengers: Endgame', 'The Lord of the Rings: The Two Towers', 'Spider-Man 2'],
             'TV shows': ['Dragon Ball Z', 'Game of Thrones', 'Code Geass', 'House of the Dragon']
@@ -55,8 +55,8 @@ class Read_Me:
             hobby_3 = self.hobbies['movies']
             hobby_4 = self.hobbies['tv shows']
             return """
-            I am currently learning {code} on {website} and {other}.
-            """.format(code = dream[0], website = learn[0], other = learn[2]) + """
+            I am currently learning {code_1} and {code_2} on {website} and {other}.
+            """.format(code_1 = dream[0], code_2 = dream[1], website = learn[0], other = learn[1]) + """
             My hobbies are playing video games, reading books, and watching movies and TV shows. 
             My all-time favorites are {game}, {book}, {movie}, and {show} respectively.
             """.format(game = hobby_1[0], book = hobby_2[1], movie = hobby_3[2], show = hobby_4[2])
