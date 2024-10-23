@@ -14,14 +14,14 @@ class Read_Me:
             'volunteer': ['Note-Taker', 'Freshman Seminar']
         }
         self.skills = { 
-            'programming languages': ['Python', 'Arduino', 'MATLAB', 'SystemVerilog'],
-            'software': ['Microsoft Office'],
-            'hardware': ['Arduino Uno'] 
+            'programming languages': ['Python', 'MATLAB', 'SystemVerilog'],
+            'software': ['Visual Studio', 'Microsoft Office'],
+            'hardware': ['Raspberry Pi 4', 'Raspberry Pi Pico', 'Arduino Uno'] 
         }
         self.growing = {
             'programming languages': ['HTML', 'JavaScript'],
             'software': ['Visual Studio'],
-            'hardware': ['Raspberry Pi', 'Raspberry Pi Pico'],
+            'hardware': [],
             'learning sites': ['The Odin Project', 'YouTube']
         }
         self.hobbies = {
@@ -43,8 +43,8 @@ class Read_Me:
             I studied {major} at {university} from 2017 to 2021, obtaining a {degree} degree upon graduation.
             """.format(major = education[0], university = education[1], degree = education[2]) + """
             During my junior year, I volunteered as a {position} for a class called {course}.
-            I guided special needs students by documenting notes for them 
-            and revised and clarified presentation content when needed.
+            I documented and uploaded comprehensive lecture notes and revised presentations to an online portal.
+            This provided students with ongoing access to study materials and enhanced their understanding of the course content.
             """.format(position = experience[0], course = experience[1])
 
         elif now == today:
@@ -62,7 +62,7 @@ class Read_Me:
             """.format(game = hobby_1[0], book = hobby_2[1], movie = hobby_3[2], show = hobby_4[2])
 
         elif now > today:
-            goal= self.employment['engineer']
+            goal = self.employment['engineer']
             return """
             I am eager to collaborate with {teams} on {projects}.
             """.format(teams = goal[0], projects = 'software engineering and electronics')
