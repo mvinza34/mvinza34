@@ -1,6 +1,6 @@
 ```python
 class Read_Me:
-    def __init__(self, username = "mvinza34", year = 2024):
+    def __init__(self, username = "mvinza34", year = 2025):
         self.year = year
         self.username = username
         self.intro = {
@@ -75,10 +75,10 @@ class Read_Me:
         opportunity = self.employment
         opportunity[role] = [organization, location]
 
-past_me = Read_Me(2024)
-present_me = Read_Me(2024)
-future_me = Read_Me(2024)
+past_me = Read_Me(2025)
+present_me = Read_Me(2025)
+future_me = Read_Me(2025)
 
-print(past_me.doing(2023))
-print(present_me.doing(2024))
-print(future_me.doing(2025))
+print(past_me.doing(2024))
+print(present_me.doing(2025))
+print(future_me.doing(2026))
