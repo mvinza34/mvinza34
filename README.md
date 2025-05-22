@@ -19,15 +19,15 @@ class Read_Me:
             'hardware': ['Raspberry Pi 4', 'Raspberry Pi Pico', 'Arduino Uno'] 
         }
         self.growing = {
-            'programming languages': ['HTML', 'JavaScript'],
-            'software': ['Visual Studio'],
+            'programming languages': ['Ladder Logic', 'Structured Text', 'HTML', 'JavaScript'],
+            'software': ['TIA Portal'],
             'hardware': [],
             'learning sites': ['The Odin Project', 'YouTube']
         }
         self.hobbies = {
             'video games': ['Elden Ring', 'Ghost of Tsushima', 'Dark Souls', 'Sekiro: Shadows Die Twice', 'Super Mario Galaxy 2', 'The Witcher 3: Wild Hunt'],
             'books': ['The Lord of the Rings', 'Ultimate Spider-Man', 'A Song of Ice and Fire', 'The Witcher'],
-            'movies': ['Godzilla Minus One', 'Avengers: Endgame', 'The Lord of the Rings: The Two Towers', 'Spider-Man 2'],
+            'movies': ['Godzilla Minus One', 'Avengers: Endgame', 'Star Wars: Return of the Jedi', 'The Lord of the Rings: The Two Towers', 'Spider-Man 2'],
             'TV shows': ['Dragon Ball Z', 'Game of Thrones', 'Code Geass', 'House of the Dragon']
         }
  
