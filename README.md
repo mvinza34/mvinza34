@@ -55,8 +55,8 @@ class Read_Me:
             hobby_3 = self.hobbies['movies']
             hobby_4 = self.hobbies['tv shows']
             return """
-            I am currently learning {code_1} and {code_2} on {website} and {other}.
-            """.format(code_1 = dream[0], code_2 = dream[1], website = learn[0], other = learn[1]) + """
+            I am currently learning {code_1}, {code_2}, {code_3), and {code_4) on {website} and {other}.
+            """.format(code_1 = dream[0], code_2 = dream[1], code_3 = dream[2], code_4 = dream[3], website = learn[1], other = learn[0]) + """
             My hobbies are playing video games, reading books, and watching movies and TV shows. 
             My all-time favorites are {game}, {book}, {movie}, and {show} respectively.
             """.format(game = hobby_1[0], book = hobby_2[1], movie = hobby_3[2], show = hobby_4[2])
