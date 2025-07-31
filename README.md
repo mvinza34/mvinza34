@@ -4,13 +4,13 @@ class Read_Me:
         self.year = year
         self.username = username
         self.intro = {
-            'introduction': ['Marlon Vinza', '25-year-old', 'college graduate']
+            'introduction': ['Marlon Vinza', '26-year-old', 'college graduate']
         }
         self.education = {
             'engineering': ['Computer Engineering', 'Sacred Heart University', 'Bachelor of Science']
         }
         self.employment = {
-            'engineer': ['company', 'city'],
+            'engineer': ['companies', 'city'],
             'volunteer': ['Note-Taker', 'Freshman Seminar']
         }
         self.skills = { 
@@ -19,19 +19,19 @@ class Read_Me:
             'hardware': ['Raspberry Pi 4', 'Raspberry Pi Pico', 'Arduino Uno'] 
         }
         self.growing = {
-            'programming languages': ['Ladder Logic', 'Structured Text', 'HTML', 'JavaScript'],
+            'programming languages': ['Ladder Logic', 'Structured Text'],
             'software': ['TIA Portal'],
             'hardware': [],
-            'learning sites': ['The Odin Project', 'YouTube']
+            'learning sites': ['YouTube']
         }
         self.hobbies = {
-            'video games': ['Elden Ring', 'Ghost of Tsushima', 'Dark Souls', 'Sekiro: Shadows Die Twice', 'Super Mario Galaxy 2', 'The Witcher 3: Wild Hunt'],
+            'video games': ['Elden Ring', 'Ghost of Tsushima', 'Dark Souls', 'Lies of P', 'Super Mario Galaxy 2', 'The Witcher 3: Wild Hunt'],
             'books': ['The Lord of the Rings', 'Ultimate Spider-Man', 'A Song of Ice and Fire', 'The Witcher'],
             'movies': ['Godzilla Minus One', 'Avengers: Endgame', 'Star Wars: Return of the Jedi', 'The Lord of the Rings: The Two Towers', 'Spider-Man 2'],
             'TV shows': ['Dragon Ball Z', 'Game of Thrones', 'Code Geass', 'House of the Dragon']
         }
  
-    def doing(self, now = 2024):
+    def doing(self, now = 2025):
         today = self.year
         if now < today:
             education = self.education['engineering']
@@ -49,14 +49,15 @@ class Read_Me:
 
         elif now == today:
             dream = self.growing['programming languages']
-            learn = self.growing['learning sites']
+            learn_1 = self.growing['software']
+            learn_2 = self.growing['learning sites']
             hobby_1 = self.hobbies['video games']
             hobby_2 = self.hobbies['books']
             hobby_3 = self.hobbies['movies']
-            hobby_4 = self.hobbies['tv shows']
+            hobby_4 = self.hobbies['TV shows']
             return """
-            I am currently learning {code_1}, {code_2}, {code_3), and {code_4) on {website} and {other}.
-            """.format(code_1 = dream[0], code_2 = dream[1], code_3 = dream[2], code_4 = dream[3], website = learn[1], other = learn[0]) + """
+            I am currently learning {code_1} and {code_2} via {source}, using {website} as a source.
+            """.format(code_1 = dream[0], code_2 = dream[1], source = learn_1[0], website = learn_2[0]) + """
             My hobbies are playing video games, reading books, and watching movies and TV shows. 
             My all-time favorites are {game}, {book}, {movie}, and {show} respectively.
             """.format(game = hobby_1[0], book = hobby_2[1], movie = hobby_3[2], show = hobby_4[2])
@@ -65,7 +66,7 @@ class Read_Me:
             goal = self.employment['engineer']
             return """
             I am eager to collaborate with {teams} on {projects}.
-            """.format(teams = goal[0], projects = 'software engineering and electronics')
+            """.format(teams = goal[0], projects = 'software engineering, automation, and electronics')
         else:
             return """
             ### Hi there 👋
