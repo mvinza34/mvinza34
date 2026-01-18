@@ -1,6 +1,6 @@
 ```python
 class Read_Me:
-    def __init__(self, username = "mvinza34", year = 2025):
+    def __init__(self, username = "mvinza34", year = 2026):
         self.year = year
         self.username = username
         self.intro = {
@@ -25,13 +25,13 @@ class Read_Me:
             'learning sites': ['YouTube']
         }
         self.hobbies = {
-            'video games': ['Elden Ring', 'Ghost of Tsushima', 'Dark Souls', 'Lies of P', 'Super Mario Galaxy 2', 'The Witcher 3: Wild Hunt'],
+            'video games': ['Elden Ring', 'Ghost of Tsushima', 'Dark Souls', 'Lies of P', 'Black Myth: Wukong', 'Super Mario Galaxy 2', 'The Witcher 3: Wild Hunt'],
             'books': ['The Lord of the Rings', 'Ultimate Spider-Man', 'A Song of Ice and Fire', 'The Witcher'],
             'movies': ['Godzilla Minus One', 'Avengers: Endgame', 'Star Wars: Return of the Jedi', 'The Lord of the Rings: The Two Towers', 'Spider-Man 2'],
             'TV shows': ['Dragon Ball Z', 'Game of Thrones', 'Code Geass', 'House of the Dragon']
         }
  
-    def doing(self, now = 2025):
+    def doing(self, now = 2026):
         today = self.year
         if now < today:
             education = self.education['engineering']
@@ -76,10 +76,10 @@ class Read_Me:
         opportunity = self.employment
         opportunity[role] = [organization, location]
 
-past_me = Read_Me(2025)
-present_me = Read_Me(2025)
-future_me = Read_Me(2025)
+past_me = Read_Me(2026)
+present_me = Read_Me(2026)
+future_me = Read_Me(2026)
 
-print(past_me.doing(2024))
-print(present_me.doing(2025))
-print(future_me.doing(2026))
+print(past_me.doing(2025))
+print(present_me.doing(2026))
+print(future_me.doing(2027))
